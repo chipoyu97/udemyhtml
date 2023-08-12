@@ -8,5 +8,17 @@
 p {
   color: yellow;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+}
+
+.white-text{
+  color: white;
+}
+
+.box.inner-box{
+  background-color: red;
+}
+
+#outer-box{
+  border: 10px purple solid;
 }
