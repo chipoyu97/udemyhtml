@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .flex-box{
+      display: flex;
+      justify-content: center;
+      
+      
+    }
+
+    .container{
+      width: 748px;
+      height: 748px;
+      background-color: #F0F1EC;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      border: 1px solid;
+      
+    }
+    
+    .first-area{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      background-color: #E72F24;
+      border-bottom-style: solid;
+      border-bottom-color: #232629;
+      border-right-color: #232629;
+      border-right-style: solid;
+    }
+    
+    .second-area{
+      grid-column-start: 2;
+      grid-column-end: span 3;
+      border-bottom-style: solid;
+      border-bottom-color: #232629;
+      
+    }
+
+    .third-area{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: span 2;
+      background-color: aqua;
+      border-bottom-style: solid;
+      border-bottom-color: #232629;
+      border-right-color: #232629;
+      border-right-style: solid;
+    }
+
+    .fourth-area{
+      grid-column-start: 2;
+      grid-column-end: span 2;
+      grid-row-start: 2;
+      grid-row-end: span 2;
+      background-color: aqua;
+      border-bottom-style: solid;
+      border-bottom-color: #232629;
+      border-right-color: #232629;
+      border-right-style: solid;
+    }
+
+    .fifth-area{
+      grid-column-start: 4;
+      grid-column-end: span 1;
+      background-color: red;
+      border-bottom-style: solid;
+      border-bottom-color: #232629;
+      border-left-color: #232629;
+      border-left-style: solid;
+    }
+
+    .sixth-area{
+      grid-column-start: 4;
+      grid-column-end: span 1;
+      grid-row-start: 3;
+      grid-row-end: span 2;
+      background-color: yellow;
+    }
+
+    .seventh-area{
+      grid-row-start: 4;
+      grid-row-end: span 1;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      background-color: green;
+    }
+
+    .eighth-area{
+      grid-row-start: 4;
+      grid-row-end: span 1;
+      grid-column-start: 2;
+      grid-column-end: span 1;
+      background-color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="flex-box">
+    <div class="container"> 
+      <div class="first-area"></div>
+      <div class="second-area"></div>
+      <div class="third-area"></div>
+      <div class="fourth-area"></div>
+      <div class="fifth-area"></div>
+      <div class="sixth-area"></div>
+      <div class="seventh-area"></div>
+      <div class="eighth-area"></div>
+      <div class="nineth-area"></div>
+    </div>
+  </div>
+</body>
+
+</html>
