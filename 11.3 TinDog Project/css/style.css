@@ -16,6 +16,27 @@
   }
 }
 
+.py-5 {
+  padding-bottom: 0 !important;
+}
+
+
+/*
+section div footer {
+  margin-bottom: 5rem;
+}
+*/
+.dog {
+  border-radius: 50%;
+  margin-bottom: 2px;
+  margin-top: 5cap;
+
+}
+
+.company {
+  margin-top: 5cap;
+}
+
 .icon-square {
   width: 3rem;
   height: 3rem;
