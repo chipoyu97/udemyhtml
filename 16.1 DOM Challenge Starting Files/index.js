@@ -1,1 +1,1 @@
-document.query
+document.querySelector("h1").innerHTML = "Goodbye";
